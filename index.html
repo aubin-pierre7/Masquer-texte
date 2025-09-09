@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afficher Ou Masquer Mot De Passe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Favicon.jpg">
+  </head>
+  <body>
+    <form>
+      <label>Mot de passe</label>
+      <div class="mdp">
+        <input type="password" id="password" />
+        <span id="togglePassword" class="toggle-password">
+          <!-- Icône œil ouverte par défaut -->
+          <svg
+            id="eyeOpen"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+            <circle cx="12" cy="12" r="3"></circle>
+          </svg>
+          <svg
+            id="eyeClosed"
+            style="display: none"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M17.94 17.94A10.94 10.94 0 0 1 12 20c-7 0-11-8-11-8a21.81 21.81 0 0 1 5.06-6.06M9.5 9.5a3 3 0 0 1 4.5 4.5M1 1l22 22"
+            ></path>
+          </svg>
+        </span>
+      </div>
+    </form>
+    <script src="script.js"></script>
+    <footer class="footer">&copy; Aubin 2025 &mdash; conçu avec passion</footer>
+  </body>
+</html>
