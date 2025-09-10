@@ -17,4 +17,8 @@ Développé avec *HTML, CSS et JavaScript* uniquement (sans framework).
 
 - *HTML5* – structure de la page  
 - *CSS3* – mise en forme et styles  
-- *JavaScript* – gestion de l’affichage/masquage  
+- *JavaScript* – gestion de l’affichage/masquage
+
+  ##  Captures d'écran  
+
+| ![Resultat 1](./Captures/Resultat_1.png) | ![Resultat2](./Captures/Resultat_2.png) |
